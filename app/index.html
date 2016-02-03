@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" ng-app="employeeApp">
+<head>
+  <meta charset="utf-8">
+  <title>Employee Form</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controllers.js"></script>
+  
+</head>
+<body ng-controller="employeeListCtrl">
+
+
+             <h1>Employee Form</h1>
+ 
+     <div border="1" style="padding:10px">
+
+      <table border="1" style="width:50%","background-color:#717171">
+        <thead class="list">
+          <th> Name</th>
+          <th> Age</th>
+          <th> Id</th>
+          <th> Department </th>
+          <th>Employee Type</th>
+          <th> Desigination </th>
+          
+        </thead>
+        <tbody>
+          <tr>
+ <td>{{employees.name}}</td>
+   <td>{{employees.age}}</td>
+   <td>{{employees.DOB}}</td>
+     <td>{{employees.department}}</td>
+
+   <td>{{employees.EmployeeType}}</td>
+
+   <td>{{employees.Designation}}</td>
+
+
+ </tr>
+</tbody>
+</table>
+      
+</div>
+<div >
+      <table border="1" style="width:50%","background">
+        <thead class="list">
+          <th> Name</th>
+          <th> Age</th>
+          <th> Department</th>
+          <th> Employer </th>
+          <th>DOB</th>
+          <!-- <th> Desigination </th> -->
+          
+        </thead>
+        <tbody>
+          <tr ng-repeat="x in employees1">
+
+          
+            <td>{{x.name}}</td>
+            <td>{{x.age}}</td>
+            <td>{{x.department}}</td>
+            <td>{{x.employer}}</td>
+            <td>{{x.DOB}}</td>
+          </tr>
+
+
+
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

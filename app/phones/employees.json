@@ -1,0 +1,39 @@
+[
+    {
+       
+        "name": "Jhon", 
+        "age" : 26,
+        "Id": "1",
+        "department": "UI developer",
+        "employeetype":"Full Time",
+        "desigination": "Manager"
+
+    }, 
+    {
+       
+        "name": "Jhon1", 
+        "age" : 27,
+        "Id": "2",
+        "department": "Java developer",
+        "employeetype":"Contract",
+        "desigination": "Manager"
+    },
+    {
+       
+        "name": "Jhon", 
+        "age" : 26,
+        "Id": "3",
+        "department": "Tester ",
+        "employeetype":"C2C",
+        "desigination": "Manager"
+    }, 
+    {
+       
+        "name": "Jhon", 
+        "age" : 26,
+        "Id": "4",
+        "department": "Support ",
+        "employeetype":"Full Time",
+        "desigination": "Manager"
+    } 
+]
